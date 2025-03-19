@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1126</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: back</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-60</x>
+      <y>-40</y>
+      <width>911</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>зображення</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="right_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+background-color: pink;
+font-size:  15px;
+font-weight: bold;
+border-radius: 10 px;</string>
+    </property>
+    <property name="text">
+     <string>Вліво</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="riz_btn">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>580</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+background-color: pink;
+font-size:  15px;
+font-weight: bold;
+border-radius: 10 px;</string>
+    </property>
+    <property name="text">
+     <string>Різкість</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cb_btn">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>580</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+background-color: pink;
+font-size:  15px;
+font-weight: bold;
+border-radius: 10 px;</string>
+    </property>
+    <property name="text">
+     <string>Ч/Б</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="left_btn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>540</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+background-color: pink;
+font-size:  15px;
+font-weight: bold;
+border-radius: 10 px;</string>
+    </property>
+    <property name="text">
+     <string>Вправо</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="window_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>540</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+background-color: pink;
+font-size:  15px;
+font-weight: bold;
+border-radius: 10 px;</string>
+    </property>
+    <property name="text">
+     <string>Дзеркало</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_btn">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>630</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+background-color: pink;
+font-size:  15px;
+font-weight: bold;
+border-radius: 10 px;</string>
+    </property>
+    <property name="text">
+     <string>Зберегти</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>21</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="papka_btn">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>530</y>
+      <width>571</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black;
+background-color: pink;
+font-size:  15px;
+font-weight: bold;
+border-radius: 5 px;</string>
+    </property>
+    <property name="text">
+     <string>Папка</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>570</y>
+      <width>581</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: white</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1126</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
